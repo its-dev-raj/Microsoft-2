@@ -8,7 +8,7 @@ const Navbar3 = () => {
 
   return (
     <div
-      className={`flex flex-row text-center z-10 lg:px-16 px-4 items-center w-full lg:p-4 p-2 justify-between shadow-sm shadow-slate-300 bg-[white] lg:shadow-md text-[black] ${
+      className={`flex flex-row text-center z-10 lg:px-24 px-4 items-center w-full lg:p-4 p-2 justify-between shadow-sm shadow-slate-300 bg-[white] lg:shadow-md text-[black] ${
         open ? "sticky top-0" : "hidden"
       }`}
     >

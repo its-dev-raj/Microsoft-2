@@ -5,7 +5,7 @@ import Card from "../componets/Card";
 const Main = () => {
   return (
     <div>
-      <div className="flex  lg:flex-row flex-col gap-4 justify-between px-4 lg:px-16">
+      <div className="flex  lg:flex-row flex-col gap-4 justify-between px-4 lg:px-24">
         {CardData.map((item, idx) => (
           <Card item={item} key={idx + "Da"} />
         ))}

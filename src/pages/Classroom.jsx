@@ -24,7 +24,7 @@ const Classroom = () => {
   ];
 
   return (
-    <div className="flex lg:flex-row flex-col justify-between  lg:px-16">
+    <div className="flex lg:flex-row flex-col justify-between  lg:px-24">
       <div className="order-2 hidden lg:block">
         <img className="" src={classroom} alt="" />
       </div>

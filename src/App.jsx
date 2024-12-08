@@ -11,6 +11,7 @@ import Heading3 from "./pages/Heading3";
 import Main2 from "./pages/Main2";
 import { Link } from "react-scroll"; // Import react-scroll Link
 import Servicepage from "./pages/Servicepage";
+import Customer from "./pages/Customer";
 
 const App = () => {
   return (
@@ -42,6 +43,7 @@ const App = () => {
       {/* Section 4: Customer Stories */}
       <div id="customerstories">
         {/* Add your customer stories content here */}
+        <Customer/>
       </div>
 
       {/* Section 5: Get Started */}
