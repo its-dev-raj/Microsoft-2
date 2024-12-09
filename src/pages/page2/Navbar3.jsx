@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll"; // Import the Link component
-import Button from "../componets/Button";
+import Button from "../../componets/Button";
 
 const Navbar3 = () => {
   const [open, setOpen] = useState(true);

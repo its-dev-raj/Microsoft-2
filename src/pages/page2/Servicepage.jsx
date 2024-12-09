@@ -1,7 +1,7 @@
-import React from 'react'
-import Button from "../componets/Button.jsx"
-import back from "/photos/back.jpg"
-import forest from "/photos/forrest.jpg"
+import React from "react";
+import Button from "../../componets/Button.jsx";
+import back from "/photos/back.jpg";
+import forest from "/photos/forrest.jpg";
 
 const Servicepage = () => {
   return (
@@ -18,11 +18,9 @@ const Servicepage = () => {
               learn about potential cost savings and business benefits of Teams.
             </p>
             <div className="lg:w-1/3 w-full absolute bottom-6   ">
-              <div>
-              </div>
+              <div></div>
               <Button
                 text={"Read the study"}
-                
                 className={
                   " bg-[#5553C1] text-white font-semibold rounded-xl lg:p-3 lg:px-4 lg:w-fit w-full"
                 }
@@ -36,6 +34,6 @@ const Servicepage = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Servicepage
+export default Servicepage;

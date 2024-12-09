@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import classroom from "/photos/classroom.jpg";
-import Aq from "../componets/Aq.jsx";
+import Aq from "../../componets/Aq.jsx";
 const Classroom = () => {
   const arr1 = [
     {

@@ -2,17 +2,20 @@ import React, { useState } from "react";
 import micro from "/photos/micro.jpg";
 import { IoClose } from "react-icons/io5";
 import { HiOutlineMenuAlt4 } from "react-icons/hi";
-import Button from "../componets/Button";
+import Button from "../../componets/Button";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const surname = "tandan";
   console.log(`raj   ${surname}   raj is a software Engineer`);
   return (
-    <div className="lg:w-full shadow-md   shadow-blue-100 flex relative justify-center py-4 px-2 ">
-      <div className="w-full justify-center lg:w-[150px] order-2 flex lg:border-r-2 items-center  border-black ">
-        <img src={micro} alt="microsoft" className=" h-6" />
-      </div>
+    <div className="lg:w-full shadow-md shadow-blue-100 flex relative justify-center py-4 px-2 ">
+      <Link to={"/"}>
+        <div className="w-full justify-center lg:w-[150px] order-2 flex lg:border-r-2 items-center  border-black ">
+          <img src={micro} alt="microsoft" className=" h-6" />
+        </div>
+      </Link>
       <div className="order-1 absolute left-2 lg:hidden">
         {open ? (
           <IoClose className="size-6" onClick={() => setOpen(false)} />

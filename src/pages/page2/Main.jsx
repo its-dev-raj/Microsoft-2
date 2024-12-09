@@ -1,6 +1,6 @@
 import React from "react";
-import { CardData } from "../Data/CardData";
-import Card from "../componets/Card";
+import { CardData } from "../../Data/CardData";
+import Card from "../../componets/Card";
 
 const Main = () => {
   return (

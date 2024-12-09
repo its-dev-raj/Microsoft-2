@@ -1,8 +1,8 @@
 import React from "react";
-import Card2 from "../componets/Card2";
+import Card2 from "../../componets/Card2.jsx";
 import small from "/photos/small.jpg";
-import { CardData2 } from "../Data/CardData2.js";
-import Button from "../componets/Button.jsx";
+import { CardData2 } from "../../Data/CardData2.js";
+import Button from "../../componets/Button.jsx";
 const Main2 = () => {
   return (
     <div className="flex flex-col lg:flex-row lg:px-24 p-4 my-8  w-full justify-between  gap-3">
