@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <div className="w-full flex  h-16 shadow-md px-12  items-center shadow-slate-300 ">
+    <div className="w-full flex  h-16 shadow-md px-14 items-center shadow-slate-300 ">
       <div className="flex order-3 lg:order-1  ">
         <img
           className=" flex py-4  h-[55px] w-[110px] "
