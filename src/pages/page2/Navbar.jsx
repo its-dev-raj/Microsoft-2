@@ -12,8 +12,8 @@ const Navbar = () => {
   return (
     <div className="lg:w-full shadow-md shadow-blue-100 flex relative justify-center py-4 px-2 ">
       <Link to={"/"}>
-        <div className="w-full justify-center lg:w-[150px] order-2 flex lg:border-r-2 items-center  border-black ">
-          <img src={micro} alt="microsoft" className=" h-6" />
+        <div className="w-full justify-center lg:w-[160px] order-2 flex lg:border-r-2 items-center  border-black ">
+          <img src={micro} alt="microsoft" className=" h-6 " />
         </div>
       </Link>
       <div className="order-1 absolute left-2 lg:hidden">
@@ -26,10 +26,10 @@ const Navbar = () => {
       <div
         className={`w-full lg:static fixed ${
           open ? "block" : " hidden"
-        } lg:top-0 top-10 z-20 bg-white left-0 lg:w-5/6 lg:flex justify-between order-3 px-2 items-center`}
+        } lg:top-0 top-10 z-20 bg-white left-0 lg:w-5/6 lg:h-6 lg:flex justify-between order-3 lg:px-2 px-5 pr-4 items-center`}
       >
-        <div className="flex gap-5 pl-4 lg:items-center text-sm flex-col lg:flex-row ">
-          <h1 className="text-[black] font-semibold text-xl lg:pl-4">Teams</h1>
+        <div className="flex gap-8  lg:items-center text-xs flex-col lg:flex-row ">
+          <h1 className="text-[black] font-semibold text-lg lg:pl-4">Teams</h1>
 
           {[
             "products",
@@ -40,7 +40,7 @@ const Navbar = () => {
             "support",
           ]?.map((item, idx) => {
             return (
-              <h1 className="hover:underline capitalize " key={item + idx}>
+              <h1 className="hover:underline capitalize  " key={item + idx}>
                 {item}
               </h1>
             );
@@ -48,11 +48,11 @@ const Navbar = () => {
         </div>
 
         <div className="flex pt-2 lg:p-0 flex-col lg:flex-row gap-3">
-          {["downloaded Teams", "sign in"]?.map((item, idx) => {
+          {["Downloaded Teams", "Sign in"]?.map((item, idx) => {
             return (
               <Button
                 key={idx + "po"}
-                className={" text-[black] "}
+                className={" text-[black] text-xs border border-black "}
                 text={item}
               />
             );

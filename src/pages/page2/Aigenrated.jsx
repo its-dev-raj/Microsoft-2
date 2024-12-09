@@ -19,11 +19,11 @@ const Aigenrated = () => {
           <div>
             <p>Follow Microsoft Teams</p>
           </div>
-          <div className=" flex gap-3 w-[30px] items-center">
-            <img className="w-[40px] " src={Xicon} alt="" />
-            <img src={instagram} alt="" />
-            <img src={youtube} alt="" />
-            <img src={blog} alt="" />
+          <div className=" flex gap-3  items-center">
+            <img className="scale-110  w-12" src={Xicon} alt="" />
+            <img src={instagram} alt="" className=" w-10" />
+            <img src={youtube} alt="" className=" w-10" />
+            <img src={blog} alt="" className=" w-10" />
           </div>
         </div>
       </div>

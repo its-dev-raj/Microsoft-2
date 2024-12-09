@@ -15,7 +15,7 @@ const Navbar3 = () => {
       <div
         className={`gap-6 lg:static ${
           down ? "absolute" : "hidden"
-        } z-20 top-20 lg:bg-none lg:inline-block lg:w-auto w-full left-0 flex flex-col lg:flex-row`}
+        } z-20 top-20 lg:bg-none lg:inline-block  lg:w-auto w-full    flex flex-col lg:flex-row`}
       >
         <div className="flex lg:flex-row flex-col gap-10 text-[#3D3C7C] font-semibold text-sm bg-white">
           {[
@@ -41,7 +41,7 @@ const Navbar3 = () => {
           })}
         </div>
       </div>
-      <div onClick={() => setdown(!down)} className="lg:hidden">
+      <div onClick={() => setdown(!down)} className="lg:hidden text-[#3D3C7C]">
         Featured news
       </div>
 

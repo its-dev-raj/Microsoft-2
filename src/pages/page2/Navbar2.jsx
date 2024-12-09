@@ -4,7 +4,7 @@ const Navbar2 = () => {
   const [open, setOpen] = useState(true);
   return (
     <div
-      className={`flex lg:flex-row text-center text-sm lg:text-xl flex-col z-10 px-10 w-full p-2 gap-4 justify-center bg-[#5553C1] text-[white]    ${
+      className={`flex lg:flex-row text-center text-sm font-normal flex-col z-10 px-10 w-full p-2 gap-4 justify-center bg-[#5553C1] text-[white]    ${
         open ? "lg:absolute" : "hidden"
       }`}
     >
