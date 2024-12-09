@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "../../compgit onents/Card";
+import Card from "../../components/Card";
 import { cardData } from "../../data2/cardData";
 
 const Main = () => {
