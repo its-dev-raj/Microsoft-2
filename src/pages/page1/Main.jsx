@@ -1,6 +1,6 @@
 import React from "react";
-import Card from "../../components/Card";
-import { cardData } from "../../data2/CardData";
+import Card from "../../compgit onents/Card";
+import { cardData } from "../../data2/cardData";
 
 const Main = () => {
   return (
