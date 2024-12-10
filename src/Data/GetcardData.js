@@ -5,27 +5,27 @@ export const GetcardData = [
     subheading:
       "Grow your customer base with communications software designed for up to 300 employees.",
     image: img1,
-    btntext: "See plans and pricing",
+    url: "See plans and pricing",
   },
   {
     title: "For business",
     subheading:
       "Grow your customer base with communications software designed for up to 300 employees.",
     image: img1,
-    btntext: "See plans and pricing",
+    url: "See plans and pricing",
   },
   {
     title: "For business",
     subheading:
       "Grow your customer base with communications software designed for up to 300 employees.",
     image: img1,
-    btntext: "See plans and pricing",
+    url: "See plans and pricing",
   },
   {
     title: "For business",
     subheading:
       "Grow your customer base with communications software designed for up to 300 employees.",
     image: img1,
-    btntext: "See plans and pricing",
+    url: "See plans and pricing",
   },
 ];

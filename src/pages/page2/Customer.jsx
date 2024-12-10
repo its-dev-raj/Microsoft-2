@@ -5,7 +5,7 @@ import Button from "../../componets/Button";
 import meeting from "/photos/customer-meeting.jpg";
 const Customer = () => {
   return (
-    <div className="lg:px-24 px-10  py-8 ">
+    <div className="lg:px-24 px-4   py-8 ">
       <div className="flex  flex-col py-10 gap-5">
         <p className="text-sm font-medium text-[#6C63D4]">CUSTOMER STORIES </p>
         <p className="lg:text-4xl text-2xl font-medium lg:font-semibold ">
@@ -34,7 +34,7 @@ const Customer = () => {
             <Button
               text={"Read the story"}
               className={
-                "bg-[#5553C1] text-white font-semibold w-fit flex px-4 py-3 rounded-xl"
+                "bg-[#5553C1] text-white items-center justify-center font-semibold lg:w-fit w-full flex px-4 py-3 rounded-xl"
               }
             />
           </div>

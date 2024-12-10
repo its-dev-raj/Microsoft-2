@@ -10,17 +10,13 @@ function Navbar() {
   return (
     <div className="w-full flex  h-16 shadow-md px-14 items-center shadow-slate-300 ">
       <div className="flex order-3 lg:order-1  ">
-        <img
-          className=" flex py-4  h-[55px] w-[110px] "
-          src={micro}
-          alt="microsoft"
-        />
+        <img className=" flex p h-6  " src={micro} alt="microsoft" />
       </div>
       <div className="order-1 lg:order-2 flex lg:w-4/6 items-center justify-between p-4 ">
         <div className="flex lg:hidden">
           <IoMdMenu />
         </div>
-        <div className="overflow-hidden text-sm  h-20 gap-4  hidden  w-[700px] lg:flex justify-center items-center  ">
+        <div className="overflow-hidden  text-sm  h-20 gap-4  hidden  w-[600px] lg:flex justify-center items-center  ">
           {[
             { title: "Microsoft 365", path: "/" },
             { title: "Teams", path: "/microsoft-teams/group-chat-software" },
@@ -39,20 +35,20 @@ function Navbar() {
             );
           })}
         </div>
-        <p className="hover:underline lg:flex hidden">All Microsoft</p>
+        <p className="hover:underline lg:flex hidden text-sm  ">All Microsoft</p>
       </div>
 
-      <div className="flex hover:underline order-2 lg:order-3 lg:pl-14  ">
-        <p className="hidden lg:flex">search</p>
-        <img className="w-[25px] h-[25px] " src={search} alt="" />
+      <div className="flex hover:underline order-2 items-center lg:order-3 lg:pl-14  gap-2  ">
+        <p className="hidden lg:flex text-sm">search</p>
+        <img className="size-6 " src={search} alt="" />
       </div>
-      <div className="flex hover:underline order-4 lg:pl-14  ">
-        <p className="hidden lg:flex">Cart</p>
-        <img className="w-[25px] h-[25px]" src={ecart} alt="" />
+      <div className="flex hover:underline order-4 lg:pl-14 gap-2  ">
+        <p className="hidden lg:flex text-sm">Cart</p>
+        <img className="size-6" src={ecart} alt="" />
       </div>
       <div className="flex gap-2 hover:underline order-5 lg:pl-10 ">
-        <p className="hidden lg:flex">Sign in</p>
-        <img className="w-[25px] h-[25px]" src={signup} alt="" />
+        <p className="hidden lg:flex text-sm">Sign in</p>
+        <img className="size-6" src={signup} alt="" />
       </div>
     </div>
   );

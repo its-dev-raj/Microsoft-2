@@ -6,7 +6,7 @@ import blog from "/photos/Blog.jpg";
 
 const Aigenrated = () => {
   return (
-    <div className="px-24 py-24">
+    <div className="lg:px-24 px-4 py-24">
       <div className="flex flex-col gap-20">
         <div className=" ">
           <h1>[1]</h1>
@@ -15,15 +15,15 @@ const Aigenrated = () => {
             Teams Premium only.
           </p>
         </div>
-        <div className="flex lg:flex-row flex-col gap-5 items-center ">
+        <div className="flex lg:flex-row  flex-col gap-5 lg:items-center ">
           <div>
             <p>Follow Microsoft Teams</p>
           </div>
-          <div className=" flex gap-3  items-center">
-            <img className="scale-110  w-12" src={Xicon} alt="" />
-            <img src={instagram} alt="" className=" w-10" />
-            <img src={youtube} alt="" className=" w-10" />
-            <img src={blog} alt="" className=" w-10" />
+          <div className=" flex gap-4  items-center">
+            <img className="  w-10" src={Xicon} alt="" />
+            <img src={instagram} alt="" className=" w-9" />
+            <img src={youtube} alt="" className=" w-8" />
+            <img src={blog} alt="" className=" w-8" />
           </div>
         </div>
       </div>

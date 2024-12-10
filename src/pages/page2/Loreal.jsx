@@ -6,7 +6,7 @@ import  real from  "/photos/loreal.jpg";
 
 const Loreal = () => {
   return (
-    <div className="flex py-28 pt-0  justify-center rounded-md ">
+    <div className="flex py-28 pt-0 px-4 justify-center rounded-md ">
       <button className="flex border rounded-2xl">
         <img
           className=" p-6   overflow-hidden "
