@@ -6,11 +6,11 @@ import forest from "/photos/forrest.jpg";
 const Servicepage = () => {
   return (
     <div className="relative ">
-      <img className="h-screen " src={back} alt="" />
-      <div className="flex p-6 lg:flex-row flex-col bg-white rounded-3xl overflow-hidden items-center justify-center absolute  lg:top-28 top-6 lg:left-24 lg:right-24  ">
-        <div className="w-full order-2 lg:order-1 lg:w-1/2 ">
-          <div className=" lg:gap-8 gap-4 pt-10 px-5 py-20 lg:px-0 flex flex-col  lg:w-[600px]">
-            <h1 className="font-semibold lg:text-3xl text-3xl leading-tight">
+      <img className="h-screen  " src={back} alt="" />
+      <div className="flex px-2  py-3 lg:flex-row flex-col bg-white lg:rounded-3xl rounded-2xl overflow-hidden items-center justify-center absolute  lg:top-28 top-10 lg:left-24 left-4 right-4  lg:right-24  ">
+        <div className="w-full order-2  lg:order-1 lg:w-1/2 ">
+          <div className=" lg:gap-8 gap-4 pt-10  py-20 px-2 flex flex-col w-full lg:w-[600px]">
+            <h1 className="font-semibold lg:text-3xl text-2xl leading-tight">
               The Total Economic ImpactTM of Microsoft Teams
             </h1>
             <p className="pr-4">
@@ -29,7 +29,7 @@ const Servicepage = () => {
           </div>
         </div>
         <div className="w-full lg:w-1/2 order-1 flex  lg:order-2">
-          <img className="rounded-xl " src={forest} alt="" />
+          <img className="rounded-xl flex  " src={forest} alt="" />
         </div>
       </div>
     </div>
