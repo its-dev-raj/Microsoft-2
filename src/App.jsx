@@ -4,7 +4,10 @@ import Page2 from "./pages/Page2";
 
 const App = () => {
   const routes = createBrowserRouter([
-    { path: "/", element: <Page1 /> },
+    {
+      path: "/",
+      element: <Page1 />
+    },
     {
       path: "/microsoft-teams/group-chat-software",
       element: <Page2 />,

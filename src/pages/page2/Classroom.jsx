@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import classroom from "/photos/classroom.jpg";
 import Aq from "../../componets/Aq.jsx";
+import Animatexdirection from "../../components/Animatexdirection.jsx";
 const Classroom = () => {
   const arr1 = [
     {
@@ -24,7 +25,7 @@ const Classroom = () => {
   ];
 
   return (
-    <div className="flex lg:flex-row flex-col justify-between  lg:px-24">
+  <Animatexdirection   className="flex lg:flex-row flex-col justify-between  lg:px-24">
       <div className="order-2 hidden lg:block">
         <img className="" src={classroom} alt="" />
       </div>
@@ -33,7 +34,7 @@ const Classroom = () => {
           <Aq item={item} key={idx + "i"} />
         ))}
       </div>
-    </div>
+    </Animatexdirection>
   );
 };
 
